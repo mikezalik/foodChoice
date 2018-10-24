@@ -1,7 +1,10 @@
 //Simple switch statement to help with choice of lunch
-//TODO: Make more intricate!
 
-var foodChoice;
+document.addEventListener ("load", foods());
+
+
+function foods() {
+
 switch(Math.floor(Math.random() * 3)){
 case 0:
 text = "American";
@@ -12,4 +15,6 @@ break;
 case 2:
 text = "Thai";
 break;
+}
+alert(text);
 }

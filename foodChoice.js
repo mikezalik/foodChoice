@@ -21,6 +21,6 @@ text = "Thai";
 break;
 }
 
-document.getElementById("result").innerHTML = text;
+document.getElementById("result").innerHTML = "Eat " + text + " food!";
 alert(text);
 }

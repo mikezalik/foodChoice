@@ -1,5 +1,9 @@
 //Simple switch statement to help with choice of lunch
 
+//TODO: Feed result in to DOM
+//TODO: implement list to populate food genres??
+
+
 document.addEventListener ("load", foods());
 
 
@@ -16,5 +20,6 @@ case 2:
 text = "Thai";
 break;
 }
+document.getElementById("result").innerHTML = text;
 alert(text);
 }

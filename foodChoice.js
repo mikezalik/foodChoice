@@ -1,6 +1,6 @@
 //Simple switch statement to help with choice of lunch
 
-//TODO: Feed result in to DOM
+//TODO: Utilize button to prompt script
 //TODO: Styles?
 //TODO: implement list to populate food genres??
 

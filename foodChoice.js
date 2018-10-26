@@ -6,8 +6,6 @@
 
 
 document.addEventListener ("load", foods());
-
-
     function foods() {
         switch(Math.floor(Math.random() * 3)){
         case 0:
@@ -20,7 +18,6 @@ document.addEventListener ("load", foods());
         text = "Thai";
         break;
     }
-
-    document.getElementById("result").innerHTML = "Eat " + text + " food!";
+document.getElementById("result").innerHTML = "Eat " + text + " food!";
     alert(text);
     }

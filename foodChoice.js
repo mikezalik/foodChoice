@@ -19,5 +19,5 @@ document.addEventListener ("load", foods());
         break;
     }
 document.getElementById("result").innerHTML = "Eat " + text + " food!";
-    alert(text);
+                                                        alert(text);
     }

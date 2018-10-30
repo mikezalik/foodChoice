@@ -5,7 +5,19 @@
 //TODO: implement list to populate food genres??
 
 
-document.addEventListener ("load", foods());
+//basic prompt 
+var fArr = [];
+var input = prompt("Whatchu want?");
+
+function foodie () {
+    fArr.push(input);
+}
+
+console.log(fArr);
+
+
+//original switch statement
+document.addEventListener ("load", foodie());
     function foods() {
         switch(Math.floor(Math.random() * 3)){
         case 0:

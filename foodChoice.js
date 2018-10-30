@@ -2,6 +2,7 @@
 
 //TODO: Code IF ELSE statement using array length to determine math.
 //TODO: Styles?
+//TODO: Fix foodieCalc
 
 
 //basic prompt 
@@ -18,10 +19,20 @@ function foodie () {
 
 console.log(fArr);
 
-function foodieCalc (){
-    
+function foodieCalc () {
+    if (fArr.length = 3) {
+        var result = fArr.slice(Math.floor(Math.random() * 3));
+        document.getElementById("result").innerHTML = result;
+        } else if (fArr.length = 2) {
+            var result = fArr.slice(Math.floor(Math.random() * 2));
+            document.getElementById("result").innerHTML = result;
+        } else {
+            var result = fArr;
+            document.getElementById("result").innerHTML = result;   
+        }
 }
 
+foodieCalc(fArr);
 
 //original switch statement
 document.addEventListener ("load", foodie());
@@ -38,5 +49,6 @@ document.addEventListener ("load", foodie());
         break;
     }
 document.getElementById("result").innerHTML = "Eat " + text + " food!";
-                                                        alert(text);
-    }d
+alert(text);
+
+}

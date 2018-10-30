@@ -18,6 +18,10 @@ function foodie () {
 
 console.log(fArr);
 
+function foodieCalc (){
+    
+}
+
 
 //original switch statement
 document.addEventListener ("load", foodie());
@@ -35,4 +39,4 @@ document.addEventListener ("load", foodie());
     }
 document.getElementById("result").innerHTML = "Eat " + text + " food!";
                                                         alert(text);
-    }
+    }d

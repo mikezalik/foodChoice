@@ -1,16 +1,17 @@
 //Simple switch statement to help with choice of lunch
 
-//TODO: Utilize button to prompt script
+//TODO: Code IF ELSE statement using array length to determine math.
 //TODO: Styles?
-//TODO: implement list to populate food genres??
 
 
 //basic prompt 
 var fArr = [];
-var input = prompt("Whatchu want?");
+var input = prompt("What would you like for lunch?");
+var input1= prompt("What else would you like?");
 
 function foodie () {
     fArr.push(input);
+    fArr.push(input1);
 }
 
 console.log(fArr);

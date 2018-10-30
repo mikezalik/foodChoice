@@ -32,10 +32,9 @@ function foodieCalc () {
         }
 }
 
-foodieCalc(fArr);
 
 //original switch statement
-document.addEventListener ("load", foodie());
+document.addEventListener ("load", foodieCalc(foodie));
     function foods() {
         switch(Math.floor(Math.random() * 3)){
         case 0:

@@ -7,11 +7,13 @@
 //basic prompt 
 var fArr = [];
 var input = prompt("What would you like for lunch?");
-var input1= prompt("What else would you like?");
+var input1 = prompt("What else would you like?");
+var input2 = prompt("What else would you like to eat?");
 
 function foodie () {
     fArr.push(input);
     fArr.push(input1);
+    fArr.push(input2);
 }
 
 console.log(fArr);

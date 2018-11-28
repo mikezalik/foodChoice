@@ -11,13 +11,15 @@ var input = prompt("What would you like for lunch?");
 var input1 = prompt("What else would you like?");
 var input2 = prompt("What else would you like to eat?");
 
+console.log(input, input1, input2);
+
 function foodie () {
     fArr.push(input);
     fArr.push(input1);
     fArr.push(input2);
 }
 
-console.log(fArr);
+console.log(fArr[0], fArr[1], fArr[2]);
 
 function foodieCalc () {
     if (fArr.length = 3) {

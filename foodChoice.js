@@ -22,10 +22,10 @@ console.log(fArr[0], fArr[1], fArr[2]);
 
 function foodieCalc () {
     if (fArr.length = 3) {
-        var result = fArr.slice(Math.floor(Math.random() * 3));
+        var result = fArr.slice[(Math.floor(Math.random() * 3))];
         document.getElementById("result").innerHTML = result;
         } else if (fArr.length = 2) {
-            var result = fArr.slice(Math.floor(Math.random() * 2));
+            var result = fArr.slice[(Math.floor(Math.random() * 2))];
             document.getElementById("result").innerHTML = result;
         } else {
             var result = fArr;

@@ -13,17 +13,16 @@ var input2 = prompt("What else would you like to eat?");
 
 console.log(input, input1, input2);
 
-function foodie () {
     fArr.push(input);
     fArr.push(input1);
     fArr.push(input2);
-}
+
 
 console.log(fArr[0], fArr[1], fArr[2]);
 
 function foodieCalc () {
     if (fArr.length = 3) {
-        var result = fArr.slice(Math.floor(Math.random() * 3));
+        var result = fArr.slice(Math.floor(Math.random() * 3);
         document.getElementById("result").innerHTML = result;
         } else if (fArr.length = 2) {
             var result = fArr.slice(Math.floor(Math.random() * 2));
@@ -36,7 +35,7 @@ function foodieCalc () {
 
 
 //original switch statement
-document.addEventListener ("load", foodieCalc(foodie));
+document.addEventListener ("load", foodieCalc(fArr));
     function foods() {
         switch(Math.floor(Math.random() * 3)){
         case 0:

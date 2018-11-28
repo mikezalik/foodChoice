@@ -32,6 +32,7 @@ function foodieCalc () {
         }
 }
 
+//calls foodieCalc function when loaded
 document.addEventListener ("load", foodieCalc(fArr));
 
 //original switch statement **NOT CALLED DURING DOCUMENT LOAD**

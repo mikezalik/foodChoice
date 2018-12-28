@@ -50,5 +50,4 @@ document.addEventListener ("load", foodieCalc(fArr));
     }
 document.getElementById("result").innerHTML = "Eat " + text + " food!";
 alert(text);
-
 }
